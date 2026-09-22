@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "MochaFox",
   description: "Real Certified Coffee Fox",
   openGraph: {
-    images: ["/warm.jpg"],
+    images: ["/warm.png"],
   },
 };
 

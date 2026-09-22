@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import warmFox from "../../../public/warm.jpg";
+import warmFox from "../../../public/warm.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBluesky,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Scan - MochaFox",
     description:
       "Quick links to connect with me on social media and other platforms.",
-    images: ["/warm.jpg"],
+    images: ["/warm.png"],
   },
 };
 
@@ -53,14 +53,14 @@ const quickLinks: QuickLink[] = [
   },
   {
     name: "Discord",
-    secondary: "realmochafox",
+    secondary: "its_mochafox",
     icon: faDiscord,
     color: "text-indigo-400",
   },
   {
     name: "GitHub",
-    secondary: "RealMochaFox",
-    url: "https://github.com/RealMochaFox",
+    secondary: "its-mochafox",
+    url: "https://github.com/its-mochafox",
     icon: faGithub,
     color: "text-gray-700",
   },
@@ -129,14 +129,14 @@ export default function ScanPage() {
                 const Component = social.url ? "a" : "div";
                 const linkProps = social.url
                   ? {
-                      href: social.url,
-                      target: social.url?.startsWith("http")
-                        ? "_blank"
-                        : "_self",
-                      rel: social.url?.startsWith("http")
-                        ? "noopener noreferrer"
-                        : undefined,
-                    }
+                    href: social.url,
+                    target: social.url?.startsWith("http")
+                      ? "_blank"
+                      : "_self",
+                    rel: social.url?.startsWith("http")
+                      ? "noopener noreferrer"
+                      : undefined,
+                  }
                   : {};
 
                 return (

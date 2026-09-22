@@ -17,10 +17,11 @@ const config: Config = {
         '-100': '-1',
       },
       colors: {
-          foamWhite: '#eff5f5',
-          darkRoast: '#6d4043',
-          lightRoast: '#916562',
-          foxOrange: '#dd9258',
+          foamWhite: '#ecddda',
+          darkRoast: '#4d2c22',
+          lightRoast: '#5f4132',
+          foxOrange: '#df824e',
+          mochaPurple: '#8c2f93',
           
       }
     },

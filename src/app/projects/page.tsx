@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import ProjectCard from "@/components/project-card";
 import Image from "next/image";
-import warmFox from "../../../public/warm.jpg";
+import warmFox from "../../../public/warm.png";
 
 export const metadata: Metadata = {
   title: "Projects - MochaFox",
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "Projects - MochaFox",
     description:
       "Explore my current and past projects - from web development to system administration and everything in between.",
-    images: ["/warm.jpg"],
+    images: ["/warm.png"],
   },
 };
 
@@ -50,7 +50,7 @@ export default function ProjectsPage() {
             status="Active"
             startDate="2025"
             liveLink="https://legacy.curseforge.com/minecraft/mc-mods/gatorade"
-            repoLink="https://github.com/RealMochaFox/gatorade"
+            repoLink="https://github.com/its-mochafox/gatorade"
           />
 
           <ProjectCard
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
             tech={["Next.js", "TypeScript", "Tailwind CSS", "Docker"]}
             status="Active"
             liveLink="https://mochafox.com"
-            repoLink="https://github.com/RealMochaFox/mochafox-web"
+            repoLink="https://github.com/its-mochafox/mochafox-web"
             startDate="2024"
           />
 
