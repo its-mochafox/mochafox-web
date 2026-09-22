@@ -15,7 +15,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Card from "@/components/card";
 import SocialCard from "@/components/social-card";
 import ArtistCard from "@/components/artist-card";
-import warmFox from "../../public/warm.jpg";
+import warmFox from "../../public/warm.png";
 
 export default function Page() {
   return (
@@ -120,7 +120,7 @@ export default function Page() {
         <div className="flex flex-wrap justify-center">
           <SocialCard
             service="Discord"
-            handle="realmochafox"
+            handle="its_mochafox"
             icon={faDiscord}
           />
           <SocialCard
@@ -147,17 +147,24 @@ export default function Page() {
         </p>
         <div className="flex flex-wrap justify-center items-center">
           <ArtistCard
-            artist="Fleur"
-            icon={faTwitter}
-            service="Twitter"
-            description="The favicon, navbar icon, and hero image were commissions to Fleur"
-            link="https://twitter.com/Fleurfurr"
+            artist="Fiuefey"
+            icon={faBluesky}
+            service="BlueSky"
+            description="The favicon and navbar icon were commissions to Fiuefey"
+            link="https://bsky.app/profile/fiuefey.com"
+          />
+          <ArtistCard
+            artist="NovAV33"
+            icon={faBluesky}
+            service="BlueSky"
+            description="The hero image was a commission to NovAV33"
+            link="https://bsky.app/profile/novav33.bsky.social"
           />
           <ArtistCard
             artist="DivineFennec"
             icon={faTwitter}
             service="Twitter"
-            description="The scrungly Mocha image was a commission to DivineFennec"
+            description="The scrungly image was a commission to DivineFennec"
             link="https://twitter.com/DivineFennec"
           />
         </div>

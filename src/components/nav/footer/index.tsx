@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBluesky } from "@fortawesome/free-brands-svg-icons";
-import { faHandsPraying } from "@fortawesome/free-solid-svg-icons";
+import { faHandsPraying, faPaw } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
@@ -20,13 +20,12 @@ export default function Footer() {
           </a>
           <a
             target="_blank"
-            href="https://chrisitian.com"
-            className="text-darkRoast"
+            href="https://pawnode.co"
+            className="text-mochaPurple"
           >
-            <FontAwesomeIcon icon={faHandsPraying} />
-            <span className="sr-only">Chrisitian</span>
+            <FontAwesomeIcon icon={faPaw} />
+            <span className="sr-only">PawNode</span>
           </a>
-          <span className="text-darkRoast">OwO</span>
         </div>
       </div>
     </footer>
