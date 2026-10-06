@@ -26,6 +26,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://u.pawnode.co/0b747956a67cc900"
+          data-website-id="9a7c4f43-1d90-4b57-b3b4-bc701cd31f74"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="https://umami.pawnode.co/recorder.js"
+          data-website-id="9a7c4f43-1d90-4b57-b3b4-bc701cd31f74"
+          strategy="afterInteractive"
+        />
+      </head>
       <body className={inter.className}>
         <main className="bg-foxOrange h-full w-full flex flex-col">
           <Header />
@@ -33,11 +45,6 @@ export default function RootLayout({
           <Footer />
         </main>
       </body>
-      <Script
-        src="https://u.crust.monster/e45e75e27812"
-        data-website-id="25a50dcf-3f9a-4dab-b6d6-41ece4608ee1"
-        strategy="afterInteractive"
-      />
     </html>
   );
 }
